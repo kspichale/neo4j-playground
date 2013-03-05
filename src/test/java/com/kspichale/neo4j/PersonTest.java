@@ -71,7 +71,7 @@ public class PersonTest {
 	}
 
 	@Test
-	public void testFulltextInde() {
+	public void testFulltextIndex() {
 		personService.createPersons();
 
 		Index<PropertyContainer> index = template.getIndex("peoplesearch");
